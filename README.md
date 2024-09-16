@@ -1,8 +1,8 @@
 1. Lav en funktion der console.logger et tilfældigt tal fra og med 0 til og med 100
 
-   ```ruby
-   console.log(Math.round(Math.random() \* 100));
-   ```
+```ruby
+console.log(Math.round(Math.random() \* 100));
+```
 
 2. Opdater din funktion så den skriver det tilfædige tal til HTML.
 
