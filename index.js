@@ -1,9 +1,9 @@
+import { $, $$ } from "../utils/dom.js";
+import { getRandomNumber } from "../utils/numbers.js";
 let max = 10;
 
-const Number = document.querySelector("#number");
-
-Number.addEventListener("mousedown", newNumber);
+$("button").addEventListener("mousedown", newNumber);
 
 function newNumber() {
-  Number.innerHTML = Math.round(Math.random() * max);
+  $("button").innerHTML = getRandomNumber(max);
 }
